@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfulwebservices;
+package com.in28minutes.rest.webservices.restfulwebservices.helloworld;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,5 +28,19 @@ public class HelloWorldController {
 	public HelloWorldBean helloWorldBeanPathVariable(@PathVariable String name) {
 		return new HelloWorldBean(String.format("Hello World, %s", name));
 	}
+	
+	/*
+	 * Retrieve all Todos for a user
+	 * GET /users/{user_name}/todos
+	 * 
+	 * Delete a Todo for a user
+	 * DELETE /users/{user_name}/todos/{todo_id}
+	 * 
+	 * Edit/Update a Todo
+	 * PUT /users/{user_name}/todos/{todo_id}
+	 * 
+	 * Create a new Todo
+	 * POST /users/{user_name}/todos
+	 */
 
 }
