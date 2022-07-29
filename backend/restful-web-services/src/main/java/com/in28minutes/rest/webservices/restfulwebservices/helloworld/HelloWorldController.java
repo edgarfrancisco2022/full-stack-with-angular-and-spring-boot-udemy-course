@@ -29,18 +29,6 @@ public class HelloWorldController {
 		return new HelloWorldBean(String.format("Hello World, %s", name));
 	}
 	
-	/*
-	 * Retrieve all Todos for a user
-	 * GET /users/{user_name}/todos
-	 * 
-	 * Delete a Todo for a user
-	 * DELETE /users/{user_name}/todos/{todo_id}
-	 * 
-	 * Edit/Update a Todo
-	 * PUT /users/{user_name}/todos/{todo_id}
-	 * 
-	 * Create a new Todo
-	 * POST /users/{user_name}/todos
-	 */
+	
 
 }

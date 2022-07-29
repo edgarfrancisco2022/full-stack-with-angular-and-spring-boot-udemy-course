@@ -4,7 +4,9 @@
   User Name : <input type="text" name="username" [(ngModel)]="username" class="py-1 mx-1">
   Password : <input type="password" name="password" [(ngModel)]="password" class="py-1 ml-1">
 
-  <button (click)=handleLogin() class="btn btn-success ml-1 py-2 px-3">Login</button>
+  <!-- <button (click)=handleLogin() class="btn btn-success ml-1 py-2 px-3">Login</button> -->
+  <!-- <button (click)=handleBasicAuthLogin() class="btn btn-success ml-1 py-2 px-3">Login</button> -->
+  <button (click)=handleJWTAuthLogin() class="btn btn-success ml-1 py-2 px-3">Login</button>
 </div>
 <small></small>
 
